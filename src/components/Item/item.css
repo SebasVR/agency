@@ -1,0 +1,52 @@
+.card {
+    background: none;
+    border: 1px solid rgb(0 0 0/5%);
+    border-radius: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 14px 0 transparent;
+    cursor: pointer;
+    flex-basis: calc(25% - 1rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    height: auto;
+    margin: 10px 0.5rem;
+    padding: 0;
+    position: relative;
+    transition: box-shadow .5s;
+}
+.card:hover {
+    box-shadow: 0 0 14px 0 rgb(52 99 188 / 20%);
+}
+.card img.imagen {
+    border-radius: 8px;
+    height: 12rem;
+    margin: 0 0 10px;
+    object-fit: cover;
+    object-position: center center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.card .content {
+    padding: 12px;
+}
+.card .titulos-card-name {
+    color: #545454;
+    line-height: 1.2;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.card .precio {
+    font-size: .75rem;
+    color: #545454;
+    margin-top: 10px;
+    line-height: 1;
+}
+
+.card .precio strong {
+    font-size: 1.8rem;
+    display: block;
+}

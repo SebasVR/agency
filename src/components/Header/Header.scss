@@ -1,0 +1,194 @@
+
+.bg-header {
+    background: #fff;
+    box-shadow: 0 11px 34px 0 rgb(52 99 188 / 19%);
+    position: relative;
+    top: auto;
+    > .row {
+        margin: 0 auto;
+        max-width: 1300px;
+        padding: 10px 36px;
+        transition: all .3s;
+        .container-logo {
+            flex: 0 0 7rem;
+            padding: 0;
+            #logo, #logo picture, #logo picture img, #logo picture source {
+                width: 100%;
+            }
+        }
+        .container-menu {
+            align-items: center;
+            display: flex;
+            flex-basis: calc(100% - 8rem);
+            flex-direction: column;
+            flex-grow: 0;
+            flex-shrink: 0;
+            justify-content: center;
+            margin: 0;
+            padding: 0 0 0 1rem;
+            width: auto;
+            .row {
+                align-content: center;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0;
+                width: 100%;
+                .menu {
+                    width: auto;
+                    button {
+                        align-content: center;
+                        align-items: center;
+                        background: #fff;
+                        border: none;
+                        border-radius: 16px;
+                        display: flex;
+                        flex: 0 0 auto;
+                        outline: 0;
+                        padding: 0.7rem;
+                        transition: all .3s;
+                        width: auto;
+                        i {
+                            color: #545454;
+                            font-size: 1.8rem;
+                            line-height: .5;
+                        }
+                        span {
+                            color: #545454;
+                            font-size: .8rem;
+                            font-weight: 400;
+                            line-height: 1;
+                            margin: 0 4px;
+                        }
+                    }
+                    button:hover {
+                        background: rgba(0,0,0,.1);
+                    }
+                    nav#menu {
+                        background: #fff;
+                        border-radius: 8px;
+                        box-shadow: 0 11px 34px 0 rgb(52 99 188 / 19%);
+                        padding: 10px 0;
+                        position: absolute;
+                        width: auto;
+                        z-index: 9;
+                        ul {
+                            margin: 0;
+                            padding: 0;
+                            li {
+                                display: flex;
+                                min-width: 200px;
+                                width: 100%;
+                                a {
+                                    align-content: center;
+                                    align-items: center;
+                                    border-radius: 0;
+                                    display: flex;
+                                    flex: 0 0 100%;
+                                    margin: 2px 0;
+                                    padding: 0.5rem;
+                                    text-decoration: none;
+                                    transition: all .3s;
+                                    width: 100%;
+                                    i {
+                                        align-content: center;
+                                        align-items: center;
+                                        color: #545454;
+                                        display: flex;
+                                        font-size: 2rem;
+                                        justify-content: center;
+                                        line-height: .7;
+                                        margin: 0;
+                                        padding: 0 0.4rem 0 0.2rem;
+                                        text-align: center;
+                                        transition: all .3s;
+                                        width: 40px;
+                                    }
+                                    span {
+                                        color: #545454;
+                                        display: block;
+                                        font-family: Poppins,sans-serif;
+                                        font-size: .8rem;
+                                        font-weight: 400;
+                                        line-height: 1;
+                                        margin: 0;
+                                        transition: all .3s;
+                                    }
+                                }
+                                a:hover {
+                                    background: var(--red-portal-exito)!important;
+                                    i {
+                                        color: #fff;
+                                    }
+                                    span {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .content{
+                    width: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .user {
+                        width: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 10px;
+                        p {
+                            margin-bottom: 0px;
+                            font-size: .75rem;
+                            span {
+                                display: block;
+                            }
+                        }
+                        button {
+                            padding: 6px 10px;
+                            font-size: .75rem;
+                            font-family: "Poppins", Helvetica, sans-serif;
+                            line-height: 1;
+                            height: auto;
+                            margin-left: 12px;
+                            outline: 0;
+                            border: 1px solid var(--red-portal-exito);
+                            background: none;
+                            color: var(--red-portal-exito);
+                            border-radius: 8px;
+                            transition: all .5s;
+                        }
+                        button:hover {
+                            background: var(--red-portal-exito);
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .header-title {
+            font-size: 30px;
+            font-weight: 700;
+        }
+    
+        .header-navbar {
+            min-width: 400px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        
+            .header-navlink {
+                font-size: 18px;
+                font-weight: 700;
+                color: red;
+            }
+        }
+    }
+}
+
+
+
